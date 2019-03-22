@@ -29,7 +29,7 @@ namespace CPURAM
             progressBarCPU.Value = (int)fcpu;
             progressBarRAM.Value = (int)fram;
             lblCPU.Text = string.Format("{0:0.00}% ",fcpu);
-            lblRAM.Text = string.Format("{0:0.00}% ", fram);  
+            lblRAM.Text = string.Format("{0:0.00}% ", fram);    
         }
 
       
